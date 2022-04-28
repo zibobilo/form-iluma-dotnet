@@ -1,16 +1,19 @@
-﻿
+﻿@* @model Form *@
+
 
 <div class="text-center">
     <h1 class="display-4"> .Net Iluma form</h1>
 
     <form method="post">
-      <label for="fname"> First name: </label>
+      <label for="FirstName"> First name: </label>
       <br>
-      <input type="text" id="fname" name="fname" value="Raphael">
+      @* <input asp-for="FirstName" value="Raphael"> *@
+      <input type="text" id="FirstName" name="FirstName" value="Raphael">
       <br>
-      <label for="lname"> Last name: </label>
+      <label for="LastName"> Last name: </label>
       <br>
-      <input type="text" id="lname" name="lname" value="Burkhardt">
+      @* <input asp-for="LastName" value="Burkhardt"> *@
+      <input type="text" id="LastName" name="LastName" value="Burkhardt">
       <br>
       <br>
       <input type="submit" value="Submit">
