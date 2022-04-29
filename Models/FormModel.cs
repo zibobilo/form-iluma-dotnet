@@ -2,15 +2,13 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using dotnetform.Models;
 
-namespace MvcForm.Models;
+namespace dotnetform.Models;
 
   public class FormModel
   {
-    string? FirstName
-    { get; set; }
+    public string? FirstName { get; set; }
 
-    string? LastName
-    { get; set; }
+    public string? LastName { get; set; }
 
     public void OnPost()
     {
