@@ -10,8 +10,8 @@ namespace dotnetform.Models;
 
     public string? LastName { get; set; }
 
-    public void OnPost()
-    {
-      Console.WriteLine("Hello there");
-    }
+    // public void OnPost()
+    // {
+    //   Console.WriteLine("Hello there");
+    // }
   }
